@@ -89,8 +89,8 @@ body {
 }
 .room{
     width: 60%;
-    height: 40vh; 
-    margin-top: -10rem;
+    height: 50vh; 
+    margin-top: -15rem;
   
   transform: translateX(-90%);
 }

@@ -1,10 +1,19 @@
-
+.featured{
+    background-color: white;
+}
+.title{
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-family: "Judson",sans-serif;
+}
 .room-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-    background-color: white;
+   
     color: white;
   }
   
@@ -49,6 +58,7 @@
   .bed{
     background-color: #D9D9D9;
     padding: 0.5rem;
+    border-radius: 5px;
   }
   
   .heart svg{
