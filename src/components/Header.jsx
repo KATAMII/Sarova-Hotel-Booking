@@ -1,12 +1,14 @@
 import React from "react";
-
+import logo from "../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="navbar">
-      <div className="navbar__logo">SAROVA HOTEL</div>
+      <div className="navbar__logo">
+        <img src={logo} alt="logo" />
+      </div>
       <div className="media">
         <div className="navbar__menu">
           <ol className="header-nav-list">
@@ -14,13 +16,13 @@ function Header() {
               <Link to="/">Home</Link>
             </li>
             <li className="header-navs">
-              <Link to="/Leadership">Rooms</Link>
+              <Link to="/Rooms">Rooms</Link>
             </li>
             <li className="header-navs">
-              <Link to="/Tracks">Amenities</Link>
+              <Link to="/Amenities">Amenities</Link>
             </li>
             <li className="header-navs">
-              <Link to="/Events">Contact Us</Link>
+              <Link to="/Contact">Contacts</Link>
             </li>
           </ol>
         </div>
