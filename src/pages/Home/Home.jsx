@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Featured from "./Featured"
 import Testimonials from "./Testimonials"
+import Footer from "../../components/Footer";
 function Home() {
   return (
     <div>
@@ -10,6 +11,7 @@ function Home() {
       <About />
       <Featured />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
