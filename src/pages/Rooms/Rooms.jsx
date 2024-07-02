@@ -13,6 +13,8 @@ import { RiStarSFill } from "react-icons/ri";
 import { IoIosBed } from "react-icons/io";
 import { FaBath } from "react-icons/fa";
 import { IoMdPeople } from "react-icons/io";
+import Banner from '../../components/Banner';
+import Footer from '../../components/Footer';
 
 
 function Featured() {
@@ -80,11 +82,44 @@ function Featured() {
       rate: 4.8,
       people: 4,
     },
+    {
+      id: 6,
+      image: suite,
+      title: 'Suite room',
+      location: 'Beach plaza',
+      price: 12000,
+      bath:2,
+      bed: 2,
+      rate: 4.8,
+      people: 4,
+    },
+    {
+      id: 5,
+      image: single,
+      title: 'Single room',
+      location: 'Lower plaza',
+      price: 8000,
+      bath: 1,
+      bed: 1,
+      rate: 4.8,
+      people: 2,
+    },
+    {
+      id: 6,
+      image: suite,
+      title: 'Suite room',
+      location: 'Beach plaza',
+      price: 12000,
+      bath:2,
+      bed: 2,
+      rate: 4.8,
+      people: 4,
+    },
   ];
 
   return (
     <div className="featured">
-        <h1 className="title">Featured Rooms</h1>
+        <Banner mainTitle="Our Rooms" subTitle="Our Luxurious Hotel Houses"/>
     <div className="room-list">
        
       {rooms.map((room) => (
@@ -101,17 +136,19 @@ function Featured() {
               <p className='bed'> <FaBath />
               {room.bath} BATH</p>
               <p className='heart'><IoMdPeople />
-              {room.people}
+              {room.people} people
               </p>
             </div>
           </div>
           <div className="price">
             <h3>${room.price}</h3>
             <p>Per Night</p>
+            <a href="#" className="view-more-btn">view more</a>
           </div>
         </div>
       ))}
     </div>
+    <Footer/>
     </div>
   );
 }

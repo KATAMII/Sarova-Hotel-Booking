@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css'; // Ensure this CSS file exists
+import './Banner.css'; 
 
 function Banner({ mainTitle, subTitle }) {
   return (
