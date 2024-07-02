@@ -80,12 +80,28 @@
 }
 
 .image-item img {
-  width: 200px;
-  height: auto;
+  width: 400px;
+  height:50vh;
   display: block;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 .image-item p {
   font-size: 14px;
   padding: 10px;
+}
+
+#amen2{
+flex-direction: row-reverse;
+background-color: var(--bg-color);
+
+}
+#amenity2 img{
+  padding: 0;
+  height: 40vh;
+}
+#amaaa{
+  background-color: white;
+  border-radius: 20px;
 }

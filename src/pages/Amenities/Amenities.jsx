@@ -38,12 +38,43 @@ function Amenities() {
         </div>
         <div className="amenities-images">
           <div className="image-item">
-            <img src={swimming} alt="Swimming Pool" />
-            <p>Our stay at Sarova Hotel was truly exceptional</p>
+            <div className="image"><img src={swimming} alt="Swimming Pool" /></div>
+            <p>We offer swimming pool for you to have fun </p>
           </div>
           <div className="image-item">
             <img src={cinema} alt="Cinema" />
-            <p>Our stay at Sarova Hotel was truly exceptional</p>
+            <p>A Cinema Hall Where you enjoy your movies.</p>
+          </div>
+        </div>
+      </div>
+      <div className="amenities-container" id="amen2">
+        <div className="amenities-description" id="amaaa">
+          <h2>Room Amenities</h2>
+      
+          <div className="icons-container">
+            <div className="icon-item">
+              <p className="icon">  <MdOutlinePool /> swimming pool</p>
+            </div>
+            <div className="icon-item">
+              <p className="icon"> <MdLocalDining />dinning area</p>
+            </div>
+            <div className="icon-item">
+             
+              <p className="icon"><BiSolidMoviePlay />cinema</p>
+            </div>
+            <div className="icon-item">
+            
+              <p className="icon"><FcConferenceCall />conference hall</p>
+            </div>
+          </div>
+        </div>
+        <div className="amenities-images">
+          <div className="image-item"id="amenity2">
+            <div className="image" ><img src={swimming} alt="Swimming Pool" /></div>
+          </div>
+          <div className="image-item"id="amenity2">
+            <img src={cinema} alt="Cinema" />
+            
           </div>
         </div>
       </div>
